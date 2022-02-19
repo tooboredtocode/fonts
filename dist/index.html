@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fonts</title>
+    <link href="/nunito.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Fonts</h1>
+    <p>This is a simple CDN to serve some fonts</p>
+</body>
+<style>
+    body {
+        color: white;
+        font-family: "Nunito", sans-serif;
+        text-align: center;
+        background-color: #171818;
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media (prefers-color-scheme: light) {
+        body {
+            color: black;
+            background-color: #d3d7d7;
+        }
+    }
+
+    p, h1 {
+        margin: 0.5rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+</style>
+</html>
