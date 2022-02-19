@@ -1,7 +1,7 @@
 # fonts
 
 This repository contains the various fonts accessible
-under the fonts subdomain
+under the fonts subdomains
 
 ---
 
